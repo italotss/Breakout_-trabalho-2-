@@ -455,9 +455,9 @@ function drawScene(now) {
 
   
     if(nodeInfosByName["bola"].trs.translation[1] < -2 && VENCEU < 40){
-  
-      omg.play();
+ 
       if(!flag){
+        omg.play();
         alert("Voce perdeu, tudo bem");
         flag = 1;
       }
