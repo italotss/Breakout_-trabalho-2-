@@ -189,9 +189,9 @@ var cubeVAO;
 var cubeBufferInfo;
 var scene;
 
-var musica = new Audio ("musicas/shooting_stars.mp3");
-var omg = new Audio("musicas/ohMyGod.mp3");
-var bounce = new Audio("musicas/bounce.mp3");
+var musica = new Audio ("./musicas/shooting_stars.mp3");
+var omg = new Audio("./musicas/ohMyGod.mp3");
+var bounce = new Audio("./musicas/bounce.mp3");
 musica.volume = 0.4;
 bounce.volume = 0.3;
 omg.volume = 0.8;
