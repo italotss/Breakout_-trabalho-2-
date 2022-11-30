@@ -475,7 +475,9 @@ function drawScene(now) {
   // ------ Draw the objects --------
   then = now;
   twgl.drawObjectList(gl, objectsToDraw);
-  requestAnimationFrame(drawScene);
+  
+  if(!flag)
+    requestAnimationFrame(drawScene);
 }
 }
 
